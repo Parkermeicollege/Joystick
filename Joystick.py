@@ -1,3 +1,5 @@
+# This is so cool!
+
 from machine import Pin, ADC
 import utime
  
