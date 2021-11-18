@@ -24,5 +24,5 @@ while True:
         yStatus = "down"
     if buttonValue == 0:
         buttonStatus = "pressed"
-    print ("X: " + xStatus + ", Y: " + yStatus + " -- button " + buttonStatus)
+    print ("X: " + str(xValue) + ", Y: " + str(yValue) + " -- button " + buttonStatus)
     utime.sleep(0.1)
